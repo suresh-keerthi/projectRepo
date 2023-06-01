@@ -2,6 +2,7 @@ package mypackage;
 
 abstract class Animal {
     String gene = "animal";
+    static int ears =2;
     static int limbs=4;
     static void eat() {
         System.out.println("animal eats");
